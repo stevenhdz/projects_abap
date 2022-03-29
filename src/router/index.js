@@ -7,6 +7,7 @@ import RespuestaGlosa from '../components/RespuestaGlosa.vue'
 import AgregarRespuestaGlosa from '../components/AgregarRespuestaGlosa.vue'
 import Pacienteslistar from '../views/Pacienteslistar.vue'
 import pacientes from '../views/Pacientes.vue'
+import Objeciones from '../views/Objeciones.vue'
 
 const routes = [
   {
@@ -57,6 +58,12 @@ const routes = [
     path: '/pacientes',
     name: 'pacientes',
     component: pacientes
+
+  },
+  {
+    path: '/Objeciones',
+    name: 'Objeciones',
+    component: Objeciones
 
   }
 
